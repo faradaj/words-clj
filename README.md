@@ -8,12 +8,16 @@ words is a Clojure app that outputs word frequencies of given text.
 
 Input:
 ```bash
-words.core=> (words.core/get-word-frequencies-of-text "Lisp (historically, LISP) is a family of computer programming languages with a long history and a distinctive, fully parenthesized Polish prefix notation.")
+words.core=> (words.core/get-word-frequencies-of-text
+	"Lisp (historically, LISP) is a family of computer programming languages with a long history
+	and a distinctive, fully parenthesized Polish prefix notation.")
 ```
 
 Output:
 ```bash
-{"lisp" 2, "with" 1, "programming" 1, "prefix" 1, "polish" 1, "parenthesized" 1, "notation" 1, "long" 1, "languages" 1, "history" 1, "historically" 1, "fully" 1, "family" 1, "distinctive" 1, "computer" 1}
+{"lisp" 2, "with" 1, "programming" 1, "prefix" 1, "polish" 1, "parenthesized" 1, "notation" 1,
+"long" 1, "languages" 1, "history" 1, "historically" 1, "fully" 1, "family" 1, "distinctive" 1,
+"computer" 1}
 ```
 
 ### Credits
