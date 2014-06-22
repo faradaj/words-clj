@@ -2,7 +2,7 @@
 
 words is a Clojure app that outputs word frequencies of given text.
 
-(Here)[http://blog.faradaj.com/post/89511968217]'s a blog post for Clojure beginners mentioning the **words**.
+[Here][http://blog.faradaj.com/post/89511968217]'s a blog post for Clojure beginners mentioning the **words**.
 
 ### Example
 
@@ -15,6 +15,10 @@ Output:
 ```bash
 {"lisp" 2, "with" 1, "programming" 1, "prefix" 1, "polish" 1, "parenthesized" 1, "notation" 1, "long" 1, "languages" 1, "history" 1, "historically" 1, "fully" 1, "family" 1, "distinctive" 1, "computer" 1}
 ```
+
+### Credits
+
+Sorting maps by value function, [omg-sort][http://tllake.blogspot.com.tr/2010/10/sorting-clojure-maps-by-value.html].
 
 ### License
 
