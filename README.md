@@ -2,6 +2,8 @@
 
 words is a Clojure app that outputs word frequencies of given text.
 
+(Here)[http://blog.faradaj.com/post/89511968217]'s a blog post for Clojure beginners mentioning the **words**.
+
 ### Example
 
 Input:
