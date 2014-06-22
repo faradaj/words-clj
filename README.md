@@ -2,7 +2,7 @@
 
 words is a Clojure app that outputs word frequencies of given text.
 
-[Here][http://blog.faradaj.com/post/89511968217]'s a blog post for Clojure beginners mentioning the **words**.
+[Here][1]'s a blog post for Clojure beginners mentioning the **words**.
 
 ### Example
 
@@ -18,7 +18,7 @@ Output:
 
 ### Credits
 
-Sorting maps by value function, [omg-sort][http://tllake.blogspot.com.tr/2010/10/sorting-clojure-maps-by-value.html].
+Sorting maps by value function, [omg-sort][2].
 
 ### License
 
@@ -43,3 +43,7 @@ Sorting maps by value function, [omg-sort][http://tllake.blogspot.com.tr/2010/10
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
+
+
+[1]: http://blog.faradaj.com/post/89511968217
+[2]: http://tllake.blogspot.com.tr/2010/10/sorting-clojure-maps-by-value.html
